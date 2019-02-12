@@ -1,0 +1,31 @@
+{
+  "name": "boiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dukegoulden/boiler.git"
+  },
+  "keywords": [],
+  "author": "Duke Goulden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dukegoulden/boiler/issues"
+  },
+  "homepage": "https://github.com/dukegoulden/boiler#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "prop-types": "^15.7.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}
